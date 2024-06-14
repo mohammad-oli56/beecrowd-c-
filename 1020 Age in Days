@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(){
+int n,year,months,days,vagsas;
+scanf("%d",&n);
+year=n/365;
+vagsas=n%365;
+
+months=vagsas/30;
+vagsas=vagsas%30;
+
+days=vagsas/1;
+
+printf("%d ano(s)\n", year);
+printf("%d mes(es)\n",months);
+printf("%d dia(s)\n",days);
+
+
+}
