@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+int A,B,C,Greatest;
+scanf("%d%d%d",&A,&B,&C);
+Greatest=A;
+if(B>Greatest){
+    Greatest=B;
+}if(C>Greatest){
+Greatest=C;
+}
+printf("%d",Greatest);
+}
